@@ -407,3 +407,46 @@ footer {
 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+/* =========================
+   Contact Section
+========================= */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.social-links a {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    background-color: #444;
+}
+
+#contactForm {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+#contactForm label {
+    display: block;
+    margin-top: 15px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    margin-bottom: 10px;
+}
+
+#formMessage {
+    font-weight: bold;
+    margin-top: 15px;
+}

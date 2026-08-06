@@ -203,56 +203,79 @@
 
     </section>
     <!-- Contact Section -->
-    <section id="contact">
+    <!-- Contact Section -->
+<section id="contact">
 
-        <h2>Contact Me</h2>
+    <h2>Contact Me</h2>
 
-        <form>
+    <p>
+        Feel free to connect with me through the links below
+        or send me a message using the form.
+    </p>
 
-            <label for="name">Name:</label>
-            <br>
+    <!-- Social Links -->
+    <div class="social-links">
 
-            <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Enter your name"
-                required
-            >
+        <a href="https://github.com/" target="_blank">
+            GitHub
+        </a>
 
-            <br><br>
+        <a href="https://www.linkedin.com/" target="_blank">
+            LinkedIn
+        </a>
 
-            <label for="email">Email:</label>
-            <br>
+        <a href="mailto:your-email@example.com">
+            Email
+        </a>
 
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter your email"
-                required
-            >
+    </div>
 
-            <br><br>
 
-            <label for="message">Message:</label>
-            <br>
+    <!-- Contact Form -->
+    <form id="contactForm">
 
-            <textarea
-                id="message"
-                name="message"
-                rows="5"
-                placeholder="Enter your message"
-                required
-            ></textarea>
+        <label for="name">Name:</label>
 
-            <br><br>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
 
-            <button type="submit">Send Message</button>
 
-        </form>
+        <label for="email">Email:</label>
 
-    </section>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+        >
+
+
+        <label for="message">Message:</label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Enter your message"
+            required
+        ></textarea>
+
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+    <p id="formMessage"></p>
+
+</section>
 
 
     <!-- Footer -->
