@@ -357,3 +357,53 @@ footer {
 .project-card a:hover {
     background-color: #444;
 }
+/* =========================
+   Resume Section
+========================= */
+
+#resume {
+    background-color: white;
+}
+
+.resume-btn {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    background-color: #222;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+}
+
+.resume-btn:hover {
+    background-color: #444;
+}
+
+
+/* =========================
+   Experience Section
+========================= */
+
+#experience {
+    background-color: #f5f7fa;
+}
+
+.experience-card {
+    max-width: 700px;
+
+    margin: 25px auto;
+
+    padding: 25px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
