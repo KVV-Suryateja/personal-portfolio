@@ -450,3 +450,98 @@ footer {
     font-weight: bold;
     margin-top: 15px;
 }
+/* =========================
+   Day 11 - Animations
+========================= */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section animation */
+section,
+header {
+    animation: fadeIn 1s ease-in;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Navigation transition */
+nav a {
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    transform: translateY(-2px);
+}
+
+
+/* Button transitions */
+button,
+#hero a,
+.resume-btn,
+.project-card a {
+    transition: 0.3s ease;
+}
+
+button:hover,
+#hero a:hover,
+.resume-btn:hover,
+.project-card a:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Project card hover effect */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Skills hover effect */
+#skills li {
+    transition: transform 0.3s ease;
+}
+
+#skills li:hover {
+    transform: scale(1.05);
+}
+
+
+/* Social link transition */
+.social-links a {
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Experience card hover */
+.experience-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
