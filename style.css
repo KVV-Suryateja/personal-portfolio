@@ -206,3 +206,80 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* =========================
+   Responsive Design
+========================= */
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    section,
+    header {
+        padding: 55px 15px;
+    }
+
+    #skills ul {
+        flex-direction: column;
+    }
+
+    #skills li {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    nav {
+        padding: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    section,
+    header {
+        padding: 40px 12px;
+    }
+
+    #skills li {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
