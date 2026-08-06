@@ -27,9 +27,12 @@ body {
 nav {
     background-color: #222;
     padding: 15px;
-    text-align: center;
-}
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 nav a {
     color: white;
     text-decoration: none;
@@ -122,14 +125,16 @@ p {
 }
 
 #skills ul {
-    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
     margin-top: 20px;
 }
 
 #skills li {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 12px 25px;
     background-color: white;
     border-radius: 5px;
 }
@@ -184,6 +189,10 @@ button {
 
 button:hover {
     background-color: #444;
+}
+#contact form {
+    display: grid;
+    gap: 10px;
 }
 
 
