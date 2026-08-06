@@ -1,0 +1,199 @@
+/* =========================
+   General Styles
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+
+/* =========================
+   Navigation
+========================= */
+
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   Common Section Styles
+========================= */
+
+section,
+header {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+
+/* =========================
+   Home
+========================= */
+
+#home {
+    background-color: #e8f0fe;
+}
+
+
+/* =========================
+   Hero
+========================= */
+
+#hero {
+    background-color: #dff6ff;
+}
+
+#hero a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero a:hover {
+    background-color: #444;
+}
+
+
+/* =========================
+   About
+========================= */
+
+#about {
+    background-color: white;
+}
+
+
+/* =========================
+   Skills
+========================= */
+
+#skills {
+    background-color: #f0f0f0;
+}
+
+#skills ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#skills li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+/* =========================
+   Education
+========================= */
+
+#education {
+    background-color: white;
+}
+
+
+/* =========================
+   Contact
+========================= */
+
+#contact {
+    background-color: #e8f0fe;
+}
+
+form {
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
